@@ -1,0 +1,56 @@
+.keyBoard {
+    height: 55%;
+    width: 72%;
+    align-self: center;
+    margin: 0;
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.keyBoard-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    width: 100%;
+    gap: 5px;
+}
+
+.key {
+    background-color: #4a4a4a;
+    color: white;
+    border: none;
+    padding: 12px 17px;
+    margin: 3px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex-grow: 1;
+    text-align: center;
+    margin: 2px;
+    flex: 1;
+}
+
+.key:hover,
+.key.active {
+    background-color: #FFA07A;
+    box-shadow: 0 0 8px #FFDAB9, 0 0 12px #FFA07A;
+}
+
+.key:active {
+    background-color: #FFB69D;
+}
+
+.space {
+    padding: 12px 160px;
+}
+
+.clear {
+    padding: 12px 40px;
+}
+
+.enter {
+    padding: 12px 60px;
+}

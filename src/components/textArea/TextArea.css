@@ -1,0 +1,33 @@
+.textArea {
+    height: 30%;
+    width: 70%;
+    align-self: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    resize: none;
+    margin-top: 5%;; 
+    margin-bottom: 10px; 
+    color:#5c5757;
+    white-space: pre;
+}
+
+.placeholder {
+    color: #aaa; 
+    font-style: italic; 
+    margin-right: 2px;
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    height: 1em;
+    margin-left: 2px;
+    animation: blink 0.7s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    0%, 70% { opacity: 1; }
+    71%, 100% { opacity: 0; }
+}
